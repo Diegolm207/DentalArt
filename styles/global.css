@@ -1,0 +1,260 @@
+body {
+    /*background-image: linear-gradient(to right, white, white, rgb(197, 226, 238), rgb(43, 142, 199));*/
+    background-color: white;
+}
+
+.header {
+    /*width: 100%;
+    height: max(10%, 150px);
+    background-image: linear-gradient(to right, white, white, rgb(197, 226, 238), rgb(43, 142, 199));
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;*/
+    height: 75px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logos {
+    height: 55px;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.logos img {
+    height: 55px;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+/*.header-muela {
+    position: relative;
+    width: 25%;
+    height: 30%;
+}
+
+.header-letra {
+    position: relative;
+    width: 60%;
+    height: 40%;
+}*/
+
+.menu {
+    margin: auto;
+    width: 75%;
+    height: auto;
+    display: inline;
+}
+
+.menu ul {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.menu a:hover {
+    background-color: rgb(51, 51, 71);
+    cursor: pointer;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+#trigger {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 5px 5px 0px 0px;
+}
+
+#trigger:hover {
+    cursor: pointer;
+    background-color: rgb(57, 153, 209);
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu2 {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu2 ul {
+    background-color: rgb(39, 39, 61);
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#menu-list {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: rgb(39, 39, 61);
+}
+
+.menu2 li {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.menu2 a {
+    height: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.menu2 li:hover {
+    background-color: rgb(51, 51, 71);
+    cursor: pointer;
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+    /*background-image: linear-gradient(to right, white, white, rgb(197, 226, 238), rgb(43, 142, 199));*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-image {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-image img {
+    height: 55px;
+    width: auto;
+}
+
+
+/*.footer-muela {
+    position: relative;
+    width: 25%;
+    height: 30%;
+}*/
+
+.footer-letra {
+    margin-left: 1%;
+}
+
+.footer-text {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-info a {
+    padding: 1%;
+    color: rgba(24, 24, 24, 0.849);
+}
+
+.modal-horarios {
+    display: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.desp-horarios:hover {
+    cursor: pointer;
+}
+
+.modal-horarios {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+    background-color: #fefefe;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width: 1470px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer-image {
+        width: 100%;
+    }
+    .footer-image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .footer-text {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .menu2 {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header>.logos {
+        width: auto;
+        height: 150px;
+    }
+    .header ul {
+        display: block;
+    }
+}

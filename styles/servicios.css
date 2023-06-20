@@ -1,0 +1,93 @@
+.especialidades {
+    margin: 1% 0% 1% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.especialidad {
+    width: 250px;
+    height: 150px;
+    margin-left: 1%;
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 0 4px 4px 0 rgba(109, 109, 109, 0.432), 0 8px 8px 0 rgba(146, 146, 146, 0.39), 0 12px 12px 0 rgba(175, 175, 175, 0.24), 0 16px 16px 0 rgba(182, 182, 182, 0.075), 0 20px 20px 0 rgba(204, 204, 204, 0.24), 0 24px 24px 0 rgba(214, 214, 214, 0.075);
+}
+
+.especialidad>h2 {
+    align-self: center;
+    padding: 40px 0% 0% 0%;
+}
+
+#implantologia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+.especialidad:hover {
+    font-size: larger;
+}
+
+.especialidad:hover h2 {
+    padding: 30px 0% 0% 0%;
+}
+
+#ortodoncia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+#prostodoncia {
+    background-color: aliceblue;
+    background-size: contain;
+}
+
+#endodoncia {
+    background-color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#periodoncia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+#peritaje {
+    background-color: aliceblue;
+    background-size: contain;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.orto-tipos {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.orto-trat {
+    border: solid 3px black;
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.orto-trat img {
+    height: auto;
+    width: 100%;
+}
+
+.orto-trat p {
+    text-align: center;
+    padding: 1%;
+}

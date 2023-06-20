@@ -1,0 +1,357 @@
+#tratamientos {
+    margin-top: 30px;
+}
+
+.tratamiento {
+    display: flex;
+    margin-left: 1%;
+    width: 98%;
+    height: 100%;
+    position: relative;
+}
+
+.tratamiento img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 0 4px 4px 0 rgba(109, 109, 109, 0.432), 0 8px 8px 0 rgba(146, 146, 146, 0.39), 0 12px 12px 0 rgba(175, 175, 175, 0.24), 0 16px 16px 0 rgba(182, 182, 182, 0.075), 0 20px 20px 0 rgba(204, 204, 204, 0.24), 0 24px 24px 0 rgba(214, 214, 214, 0.075);
+}
+
+.tratamiento img:hover {
+    border: solid 3px grey;
+}
+
+.puntos {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.punto {
+    display: inline;
+}
+
+.dot {
+    background-color: grey;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#dot1 {
+    background-color: rgb(214, 214, 214);
+}
+
+#dot2 {
+    background-color: rgb(214, 214, 214);
+}
+
+#dot3 {
+    background-color: rgb(214, 214, 214);
+}
+
+#dot4 {
+    background-color: rgb(214, 214, 214);
+}
+
+#dot5 {
+    background-color: rgb(214, 214, 214);
+}
+
+.punto :hover {
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.especialidades {
+    margin: 1% 0% 1% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+}
+
+
+/*.implantologia,
+.ortodoncia,
+.prostodoncia,
+.endodoncia,
+.periodoncia,
+.peritaje*/
+
+.especialidad {
+    width: 250px;
+    height: 150px;
+    margin-left: 1%;
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 0 4px 4px 0 rgba(109, 109, 109, 0.432), 0 8px 8px 0 rgba(146, 146, 146, 0.39), 0 12px 12px 0 rgba(175, 175, 175, 0.24), 0 16px 16px 0 rgba(182, 182, 182, 0.075), 0 20px 20px 0 rgba(204, 204, 204, 0.24), 0 24px 24px 0 rgba(214, 214, 214, 0.075);
+}
+
+.especialidad>h2 {
+    align-self: center;
+    padding: 40px 0% 0% 0%;
+}
+
+#implantologia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+.especialidad:hover {
+    font-size: larger;
+}
+
+.especialidad:hover h2 {
+    padding: 30px 0% 0% 0%;
+}
+
+#ortodoncia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+#prostodoncia {
+    background-color: aliceblue;
+    background-size: contain;
+}
+
+#endodoncia {
+    background-color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#periodoncia {
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+#peritaje {
+    background-color: aliceblue;
+    background-size: contain;
+}
+
+.nuestra {
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 25px 4% 20px 4%;
+    padding: 20px;
+    background-color: rgb(43, 142, 199);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nuestra-body {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+
+.nuestra-texto {
+    border: solid 3px black;
+    display: block;
+    margin: 2%;
+    width: 50%;
+    border-radius: 45px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nuestra-img {
+    display: block;
+    margin: 2%;
+    width: 50%;
+}
+
+.nuestra img {
+    width: 90%;
+    border: solid 4px rgb(5 114 177);
+    border-radius: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.opiniones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 9% 5% 9%;
+}
+
+.card {
+    /*background-color: rgb(201, 203, 206);
+    border: solid 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    width: 31%;
+    height: auto;
+    padding: 1% 3% 1% 3%;
+    margin: 0% 1% 0% 1%;
+}
+
+.card-body {
+    vertical-align: baseline;
+}
+
+.fotoPerfil {
+    margin-right: 3%;
+    width: 25px;
+    height: 25px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+}
+
+.personal-back {
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.base-foto {
+    text-align: center;
+    padding: 0% 2% 0% 2%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 10%;
+}
+
+.middle p {
+    font-size: 20px;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.modal-personal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+    background-color: #fefefe;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_content img {
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1470px) {
+    .nuestra-body {
+        flex-direction: column;
+    }
+    .nuestra-texto {
+        width: 90%;
+        margin: 3% 5% 3% 5%;
+    }
+    .nuestra-img {
+        width: 100%;
+    }
+    .personal {
+        flex-direction: column;
+        align-items: center
+    }
+    .container {
+        margin: 5% 0% 5% 0%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .middle p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    p,
+    i {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 2800px) {
+    p,
+    i {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+}
